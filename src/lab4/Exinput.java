@@ -19,14 +19,14 @@ public class Exinput {
 
         //input double
         System.out.print("please, enter double:");
-        double y = scanner,nextDouble();
+        double Y = scanner.nextInt();
 
         System.out.print("your entered double:"+y);
 
 
         //input String
         System.out.print("please' enter your:");
-        String s =scanner.findInLine();
+        String s =scanner.nextLine();
 
         System.out.println("you name is:"+s);
 
@@ -44,7 +44,7 @@ public class Exinput {
 
 
     }
-}
+
 
 
 

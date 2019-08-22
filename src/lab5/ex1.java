@@ -1,8 +1,12 @@
 package lab5;
 
-public class ex1 {
+import org.omg.CORBA.PUBLIC_MEMBER;
 
-    public static void main(String[] args) {
+import java.security.PublicKey;
+
+public class ex1 {
+    public static void main (String[] args)
+     {
         //boolean
         boolean b = true;
         System.out.println(!b);
