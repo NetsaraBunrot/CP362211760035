@@ -22,12 +22,19 @@ public class ex2 {
         }
 
         //find maximum
-        int max = num[0];
+        int min = num[0];
         for (int i : num) {
-            if (max < i)
-                max = i;
+            if (min > i)
+                min = i;
         }
-        System.out.println("The maximum number:" + max);
+        System.out.println("The mimimum number:" +min);
+
         //find minimum
+
+        int total = 0 ;
+        for (int i:num) {
+            total += i;
+        }
+        System.out.print("The average number:"+(total/num.length));
     }
 }
