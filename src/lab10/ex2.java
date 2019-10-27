@@ -22,16 +22,15 @@ public class ex2 {
         int num2 = sc.nextInt();
 
         int nul = Multiple(num1, num2);
-        System.out.println("The multiple value is : " + mul);
+        System.out.println("The maximum value is "+nul);
     }
 
     public static int Multiple(int num1, int num2){
-        return num1, num2
+        return num1*num2;
 
     }
+    
 
-    private static String Multiple() {
-    }
 
     private static int Min(int x, int y) {
             int rs;
